@@ -7,6 +7,11 @@ $font_fem: 'Asap', sans-serif;
 $font_fem_2: 'Montserrat', sans-serif;
 $colour_text: #4d4d4d;
 
+a{
+  text-decoration: none;
+  outline: none;
+}
+
 .btn_full {
   text-decoration: none;
   text-align: center;
@@ -313,6 +318,7 @@ $colour_text: #4d4d4d;
 }
 
 .contact {
+  padding-bottom: 30px;
   background-image: url('../images/contact_bg.png');
   background-size: cover;
 
@@ -352,6 +358,44 @@ $colour_text: #4d4d4d;
 
   .btn_full{
     margin-top: 30px;
+    margin-bottom: 53px;
   }
 
+
+
+  .social{
+    padding-top: 24px;
+    border-top: solid 1px #FFFFFF;
+    padding-bottom: 30px;
+
+    p{
+      font: 16px $font_fem_2;
+      color: #FFFFFF;
+    }
+
+    .social_icon{
+      padding: 0;
+      text-align: left;
+
+      a{
+        padding: 0;
+        text-decoration: none;
+        i{
+        margin-left: 9px;
+        font-size: 27px;
+        color: #FFFFFF;
+        text-decoration: none;
+        &:hover{
+          color: #0084b4;
+        }
+
+        }
+
+      }
+
+    }
+
+
+  }
 }
+

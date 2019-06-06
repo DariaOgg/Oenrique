@@ -1,6 +1,11 @@
 @import "bootstrap-theme.css";
 @import "bootstrap.css";
 @import "style.css";
+a {
+  text-decoration: none;
+  outline: none;
+}
+
 .btn_full {
   text-decoration: none;
   text-align: center;
@@ -248,6 +253,7 @@
 }
 
 .contact {
+  padding-bottom: 30px;
   background-image: url("../images/contact_bg.png");
   background-size: cover;
 }
@@ -281,6 +287,33 @@
 }
 .contact .btn_full {
   margin-top: 30px;
+  margin-bottom: 53px;
+}
+.contact .social {
+  padding-top: 24px;
+  border-top: solid 1px #FFFFFF;
+  padding-bottom: 30px;
+}
+.contact .social p {
+  font: 16px "Montserrat", sans-serif;
+  color: #FFFFFF;
+}
+.contact .social .social_icon {
+  padding: 0;
+  text-align: left;
+}
+.contact .social .social_icon a {
+  padding: 0;
+  text-decoration: none;
+}
+.contact .social .social_icon a i {
+  margin-left: 9px;
+  font-size: 27px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.contact .social .social_icon a i:hover {
+  color: #0084b4;
 }
 
 /*# sourceMappingURL=style_ss.css.map */
