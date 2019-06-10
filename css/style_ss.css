@@ -251,6 +251,17 @@ a {
   padding: 70px 0 64px 0;
   text-align: center;
 }
+.score .score_item p {
+  padding-top: 32px;
+  font: 22px/32px "Asap", sans-serif;
+  color: #212121;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+.score .score_item p span {
+  font-size: 30px;
+  font-weight: 600;
+}
 
 .contact {
   padding-bottom: 30px;

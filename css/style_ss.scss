@@ -314,7 +314,19 @@ a{
   background-color: #f6f6f6;
   padding: 70px 0 64px 0;
   text-align: center;
-
+  .score_item{
+    p{
+      padding-top: 32px;
+      font: 22px/32px $font_fem;
+      color: #212121;
+      text-transform: uppercase;
+      opacity: 0.8;
+      span{
+        font-size: 30px;
+        font-weight: 600;
+      }
+    }
+  }
 }
 
 .contact {
